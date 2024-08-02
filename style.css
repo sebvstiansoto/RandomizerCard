@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.controls {
+    margin-top: 7vh;
+}
+
+#card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+}
+
+.card-value {
+    position: absolute;
+    font-size: 2.3vh;
+}
+
+.top-left {
+    top: 1vh;
+    left: 1vh;
+}
+
+.bottom-right {
+    bottom: 1vh;
+    right: 1vh;
+}
+
+.suit {
+    position: absolute;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="card-body"></div>                                  <!-- card-body sera el cuerpo de nuestra carta -->
+
+   
+    <div class="controls">                                      <!-- seran nuestros "controles" para ajustar el alto y ancho de nuestro card-body -->
+
+        <label for="width-input">Width:</label>                 <!-- con Label mostraremos el texto "Width:" en nuestro navegador seguido con nuestro 'width-input' -->
+        <input type="number" id="width-input" value="150">      <!-- el cual nos mostrara un rectangulo con la opcion de insertar valores para cambiar ajustes-->
+
+        <label for="height-input">Height:</label>               <!-- con Label mostraremos el texto "Height:" en nuestro navegador seguido con nuestro height-input-->
+        <input type="number" id="height-input" value="200">     <!-- el cual nos mostrara un rectangulo con la opcion de insertar valores-->
+
+        <button id="randomizer-card">¡Lets Go!</button>         <!-- Crearemos un boton en nuestro navegador para ejecutar nuestra funcion de generar aleatoreamente cartas-->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
